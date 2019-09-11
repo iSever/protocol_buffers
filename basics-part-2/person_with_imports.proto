@@ -3,6 +3,8 @@ syntax = "proto3";
 
 import "date.proto";
 
+package person;
+
 /*
     Person is used to identify users
     accross our system
@@ -29,7 +31,7 @@ message Person {
 
     // We need use EyeColor into something
     EyeColor eye_color = 8;
-    Date birthday = 9;
+    com.isever.date.Date birthday = 9;
 
     // we define type address within person (full name is Person.Address)
     message Address {

@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+package com.isever.date;
+
 // Person's birthday
 // Date
 message Date {
